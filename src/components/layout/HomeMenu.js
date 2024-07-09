@@ -26,7 +26,9 @@ const HomeMenu = () => {
         <h2 className="text-primary font-bold text-4xl italic">Menu</h2>
       </div>
 
-      <MenuItem />
+      <div className="grid grid-cols-3 gap-4">
+        <MenuItem />
+      </div>
     </section>
   );
 };
