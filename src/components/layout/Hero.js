@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative">
+      <div className="relative z-10">
         <Image
           src={pizzaImage}
           alt={"pizza-img"}
