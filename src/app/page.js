@@ -7,7 +7,6 @@ import { LocaleRouteNormalizer } from "next/dist/server/future/normalizers/local
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <HomeMenu />
       <section className="text-center my-16">
